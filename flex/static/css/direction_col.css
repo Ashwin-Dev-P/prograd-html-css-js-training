@@ -1,0 +1,13 @@
+.main {
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100vh;
+	/* width: max-content; */
+	/* width: max-content; */
+	/* 
+	min-width: max-content; */
+}
+
+img {
+	flex: 1;
+}

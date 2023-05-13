@@ -1,0 +1,6 @@
+.main {
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	/* height: var(--size);
+	width: max-content; */
+}

@@ -1,0 +1,35 @@
+:root {
+	--background_colour: #dbd9d9;
+	--image-dimension: 170px;
+}
+
+img {
+	width: var(--image-dimension);
+	height: var(--image-dimension);
+	background-color: var(--background_colour);
+	margin: 10px;
+	border: 3px solid black;
+	align-items: center;
+	border-radius: 10%;
+	box-shadow: 2px 2px 2px 2px gray;
+}
+
+img:hover {
+	transform: scale(1.05);
+	transition-duration: 0.1s;
+}
+
+.main {
+	box-shadow: 1px 1px 1px 1px gray;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+	background-color: var(--background_colour);
+}
+
+.text-center {
+	text-align: center;
+}

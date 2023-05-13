@@ -1,0 +1,6 @@
+.main {
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* height: max-content;
+	width: max-content; */
+}

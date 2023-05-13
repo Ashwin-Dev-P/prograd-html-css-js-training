@@ -1,0 +1,41 @@
+#square-div {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+#square-div:hover {
+	transform: scale(1.5);
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid green;
+}
+
+.triangle:hover {
+	transform: skew(20deg, 10deg);
+}
+
+.rotate {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+.rotate:hover {
+	rotate: 30deg;
+}
+
+.translate {
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+}
+
+.translate:hover {
+	translate: 100px 20px;
+}

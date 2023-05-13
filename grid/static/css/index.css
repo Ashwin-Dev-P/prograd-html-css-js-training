@@ -1,0 +1,30 @@
+:root {
+	--image-dimension: 200px;
+}
+
+img {
+	width: var(--image-dimension);
+	height: var(--image-dimension);
+	border-radius: 50%;
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+img:hover {
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+.grid-container {
+	display: grid;
+
+	grid-template-columns: auto auto auto;
+	gap: 50px;
+	padding: 5%;
+}
+
+.grid-item {
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
