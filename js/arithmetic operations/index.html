@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="stylesheet" href="./static/css/index.css" />
+	</head>
+	<body>
+		<main>
+			<h1 class="a-text-center">Arithmetic calculator</h1>
+			<form onsubmit="calculate(event)">
+				<div class="a-form-control">
+					<label for="a">A</label>
+					<input type="number" inputmode="numeric" name="a" id="a" autofocus />
+				</div>
+				<div class="a-form-control">
+					<label for="b">B</label>
+					<input type="number" inputmode="numeric" name="b" id="b" />
+				</div>
+				<div class="a-form-control">
+					<input type="submit" value="calculate" />
+				</div>
+			</form>
+
+			<div>
+				<table id="output_table">
+					<tbody>
+						<tr>
+							<th>Addition</th>
+							<td id="addition"></td>
+						</tr>
+						<tr>
+							<th>Subtraction</th>
+							<td id="subtraction"></td>
+						</tr>
+
+						<tr>
+							<th>Multiplication</th>
+							<td id="multiplication"></td>
+						</tr>
+
+						<tr>
+							<th>Division</th>
+							<td id="division"></td>
+						</tr>
+
+						<tr>
+							<th>Modulo</th>
+							<td id="modulo"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</main>
+		<script src="./static/js/index.js"></script>
+	</body>
+</html>

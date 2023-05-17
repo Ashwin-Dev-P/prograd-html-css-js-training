@@ -1,0 +1,10 @@
+table {
+	border: 1px solid;
+	visibility: hidden;
+}
+
+th,
+tr,
+td {
+	border: 1px solid;
+}

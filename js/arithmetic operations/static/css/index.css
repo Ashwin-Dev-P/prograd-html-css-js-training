@@ -1,0 +1,18 @@
+table {
+	visibility: hidden;
+	border: 2px solid black;
+	margin: 3%;
+}
+
+th,
+td {
+	border: 1px solid;
+}
+
+.a-form-control {
+	margin: 2%;
+}
+
+.a-text-center {
+	text-align: center;
+}

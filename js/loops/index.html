@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="stylesheet" href="./static/css/index.css" />
+	</head>
+	<body>
+		<div>
+			<h2>Platina bakery</h2>
+			<form onsubmit="getDiscountForbakery(event)">
+				<div>
+					<label for="bill_amount">Enter bill amount</label>
+					<input type="number" inputmode="numeric" id="bill_amount" />
+				</div>
+			</form>
+			<div id="discount_display_div"></div>
+			<table id="bakery_table">
+				<thead>
+					<tr>
+						<td>Day</td>
+						<td>Discount amount</td>
+					</tr>
+				</thead>
+				<tbody id="bakery_discount_table"></tbody>
+			</table>
+		</div>
+
+		<div>
+			<h2>School application</h2>
+			<form onsubmit="getSchoolApplicationStatus(event)">
+				<div>
+					<label for="marks">Enter marks</label>
+					<input
+						type="number"
+						inputmode="numeric"
+						id="marks"
+						min="0"
+						max="100"
+					/>
+				</div>
+			</form>
+			<div id="status_of_application_div"></div>
+		</div>
+
+		<div>
+			<h2>Shopping mall gift voucher</h2>
+			<form onsubmit="generateGiftVoucher(event)">
+				<div>
+					<label for="purchased_items_value">Enter purchased items value</label>
+					<input type="number" inputmode="numeric" id="purchased_items_value" />
+				</div>
+			</form>
+
+			<div id="gv_div"></div>
+		</div>
+		<script src="./static/js/index.js"></script>
+	</body>
+</html>
